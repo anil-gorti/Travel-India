@@ -1,20 +1,27 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Travel India
 
-# Run and deploy your AI Studio app
+Travel India is a web app for exploring India travel experiences with an emphasis on safer trip planning and guided decision support.[page:1] The repository includes the main app code, a product requirements document for **Sarthi**, and a manifesto that outlines the product direction.[page:1]
 
-This contains everything you need to run your app locally.
+## What this repo contains
 
-View your app in AI Studio: https://ai.studio/apps/737623f7-3a22-45c0-a60c-fca045c6217c
+This repository currently includes:
 
-## Run Locally
+- `src/` for the frontend application code.[page:1]
+- `index.html`, `vite.config.ts`, `tsconfig.json`, and `package.json`, which indicate a Vite-based web application setup.[page:1]
+- `SARTHI-PRD.md`, which documents the Sarthi product concept.[page:1]
+- `MANIFESTO.md`, which captures the broader product vision and principles.[page:1]
+- `.env.example`, which shows that environment-based configuration is expected.[page:1]
 
-**Prerequisites:**  Node.js
+## Product direction
 
+Travel India appears to be evolving from a simple AI Studio starter app into a more opinionated travel product centered on trust, guidance, and decision support.[page:1] The latest commit message references “Sarthi Agent Shield logic” and a demo UI, suggesting that safety and assistant-driven workflows are now part of the core experience.[page:1]
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Tech stack
+
+The repository is primarily built with TypeScript, with additional JavaScript, CSS, and HTML.[page:1] The project also uses Node.js for local development and Vite-style commands for running the app.[page:1]
+
+## Getting started
+
+### Prerequisites
+
+- Node.js insta
