@@ -9,6 +9,7 @@ import { Updates } from './screens/Updates';
 import { Onboarding } from './screens/Onboarding';
 import { HostActivity } from './screens/HostActivity';
 import { Concierge } from './screens/Concierge';
+import SarthiDemo from './screens/SarthiDemo';
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
           <Route path="/onboarding" element={<Onboarding />} />
           <Route path="/host" element={<HostActivity />} />
           <Route path="/concierge" element={<Concierge />} />
+          <Route path="/sarthi" element={<SarthiDemo />} />
         </Routes>
         <BottomNav />
         
