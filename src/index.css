@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #0b1a7d;
+  --color-primary-container: #283593;
+  --color-on-primary-container: #9aa5ff;
+  --color-secondary: #8f4e00;
+  --color-secondary-container: #fe9832;
+  --color-on-secondary-container: #683700;
+  --color-tertiary: #013200;
+  --color-tertiary-container: #024b00;
+  --color-on-tertiary-container: #56c244;
+  --color-surface: #f9f9f9;
+  --color-surface-container-low: #f3f3f3;
+  --color-surface-container: #eeeeee;
+  --color-surface-container-high: #e8e8e8;
+  --color-surface-container-highest: #e2e2e2;
+  --color-surface-container-lowest: #ffffff;
+  --color-outline: #767683;
+  --color-outline-variant: #c6c5d4;
+  --color-error: #ba1a1a;
+  --color-error-container: #ffdad6;
+  --color-inverse-surface: #2f3131;
+  --color-on-inverse-surface: #f1f1f1;
+  --color-primary-fixed: #dfe0ff;
+  --color-primary-fixed-dim: #bcc2ff;
+  --color-secondary-fixed: #ffdcc2;
+  --color-secondary-fixed-dim: #ffb77a;
+  --color-tertiary-fixed: #8dfc75;
+  --color-on-surface: #1b1b1f;
+  --color-on-surface-variant: #46464f;
+  --color-on-primary: #ffffff;
+  --color-on-secondary: #ffffff;
+  --color-on-tertiary: #ffffff;
+  --color-on-error: #ffffff;
+  --color-on-tertiary-fixed-variant: #002200;
+
+  --font-headline: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Manrope", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-surface text-on-surface font-body antialiased;
+  }
+}
+
+.glass-nav {
+  @apply bg-surface/80 backdrop-blur-xl;
+}
+
+.editorial-shadow {
+  box-shadow: 0 12px 32px rgba(11, 26, 125, 0.06);
+}
+
+.message-gradient {
+  background: linear-gradient(135deg, #0b1a7d 0%, #283593 100%);
+}

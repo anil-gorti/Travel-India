@@ -1,0 +1,5 @@
+{
+  "name": "Yaartri",
+  "description": "A social sanctuary for solo travelers to connect, explore, and build trust through verified meetups and safe-hubs.",
+  "requestFramePermissions": ["geolocation"]
+}
